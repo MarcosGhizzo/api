@@ -1,7 +1,6 @@
 package med.voll.api.controller;
 
 import jakarta.validation.Valid;
-import med.voll.api.domain.endereco.Endereco;
 import med.voll.api.domain.medico.DadosListagemMedico;
 import med.voll.api.domain.medico.Medico;
 import med.voll.api.domain.medico.MedicoRepository;
@@ -17,7 +16,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 @RestController
 @RequestMapping("medicos")
-public class MedicoController {
+public class    MedicoController {
 
     @Autowired
     private MedicoRepository repository;
